@@ -1,0 +1,72 @@
+Uri: https://879.879.ai/
+File Name: C:\laragon-8\www\879.879.ai\index.htm
+Content Type: text/html
+
+Uri: https://879.879.ai/favicon.ico
+File Name: C:\laragon-8\www\879.879.ai\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://879.879.ai/_next/static/chunks/699-8c097330a5cbb01e.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\699-8c097330a5cbb01e.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/701-763b7d8022d72c1d.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\701-763b7d8022d72c1d.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/938-ce0758a02bd7ab98.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\938-ce0758a02bd7ab98.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/a4634e51-5bc22b62c1e7f293.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\a4634e51-5bc22b62c1e7f293.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/app/(app)/layout-22b9b1805a716f29.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\app\(app)\layout-22b9b1805a716f29.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/app/layout-0c4d9fb9adb97ca5.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\app\layout-0c4d9fb9adb97ca5.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/fd9d1056-b9c6bd1f2f7aa233.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\fd9d1056-b9c6bd1f2f7aa233.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/main-app-01dcb8892b176af1.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\main-app-01dcb8892b176af1.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\polyfills-c67a75d1b6f99dc8.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/chunks/webpack-0b7622dd6b6153de.js
+File Name: C:\laragon-8\www\879.879.ai\_next\static\chunks\webpack-0b7622dd6b6153de.js
+Content Type: application/javascript
+
+Uri: https://879.879.ai/_next/static/css/c7aaa3d24febce22.css
+File Name: C:\laragon-8\www\879.879.ai\_next\static\css\c7aaa3d24febce22.css
+Content Type: text/css
+
+Uri: https://879.879.ai/_next/static/css/d71f72c3e4397f00.css
+File Name: C:\laragon-8\www\879.879.ai\_next\static\css\d71f72c3e4397f00.css
+Content Type: text/css
+
+Uri: https://879.879.ai/_next/static/media/2f7e1e1a49b55ebe-s.p.woff2
+File Name: C:\laragon-8\www\879.879.ai\_next\static\media\2f7e1e1a49b55ebe-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://879.879.ai/_next/static/media/7ba935355b4d4dfa-s.p.woff2
+File Name: C:\laragon-8\www\879.879.ai\_next\static\media\7ba935355b4d4dfa-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://879.879.ai/_next/static/media/88d02d20d9b4498d-s.p.woff2
+File Name: C:\laragon-8\www\879.879.ai\_next\static\media\88d02d20d9b4498d-s.p.woff2
+Content Type: font/woff2
+
+Uri: https://879.879.ai/_next/static/media/d338f25ff0908613-s.p.woff2
+File Name: C:\laragon-8\www\879.879.ai\_next\static\media\d338f25ff0908613-s.p.woff2
+Content Type: font/woff2
+

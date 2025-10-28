@@ -1,0 +1,222 @@
+/* Archivo CSS para ocultar elementos específicos */
+
+/* Animación de parpadeo/loading */
+@keyframes pulse-loading {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+}
+
+@keyframes fade-pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.6;
+        transform: scale(0.98);
+    }
+}
+
+
+/* Ocultar contenedor principal de navegación superior */
+div.z-40.hidden.fixed.w-full.justify-between.items-center.px-\[2vw\].h-\[7em\].left-0.top-\[30px\] {
+    display: none !important;
+}
+
+/* Reemplazar contenedor del video preload con imagen 879-studios.jpg */
+div.z-50.\!fixed.wh-full.object-contain.bg-black.relative {
+    background-image: url('../../../images/879-studios.jpg') !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-color: #000 !important;
+    animation: pulse-loading 2s ease-in-out infinite !important;
+}
+
+/* Ocultar SOLO el video de preload (dentro del contenedor z-50) */
+div.z-50.\!fixed.wh-full.object-contain.bg-black.relative video {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Asegurar que TODOS los demás videos permanezcan visibles */
+video.absolute.tl-0.wh-full.object-contain.visible {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Forzar visibilidad de videos con blob URL fuera del contenedor z-50 */
+video[src^="blob:"]:not(div.z-50 video) {
+    display: block !important;
+    visibility: visible !important;
+}
+
+/* Reemplazar imagen intro-head-1 con versión local */
+img[src*="intro-head-1.a162e3a5.png"] {
+    content: url('../media/intro-heads/intro-head-1.a162e3a5.png') !important;
+}
+
+/* Alternativa: forzar src directamente */
+img[alt=""][width="1802"][height="1905"] {
+    content: url('../media/intro-heads/intro-head-1.a162e3a5.png') !important;
+}
+
+/* Reemplazar imagen intro-head-2 con versión local */
+img[src*="intro-head-2.a147f63c.png"] {
+    content: url('../media/intro-heads/intro-head-2.a147f63c.png') !important;
+}
+
+/* Alternativa: forzar src directamente para intro-head-2 */
+img[alt=""][width="1680"][height="1680"] {
+    content: url('../media/intro-heads/intro-head-2.a147f63c.png') !important;
+}
+
+/* Reemplazar imagen intro-head-3 con versión local */
+img[src*="intro-head-3.928b7f0c.png"] {
+    content: url('../media/intro-heads/intro-head-3.928b7f0c.png') !important;
+}
+
+/* Alternativa: forzar src directamente para intro-head-3 */
+img[alt=""][width="1920"][height="1920"] {
+    content: url('../media/intro-heads/intro-head-3.928b7f0c.png') !important;
+}
+
+/* Reemplazar imagen intro-head-4 con versión local */
+img[src*="intro-head-4.7528d23d.png"] {
+    content: url('../media/intro-heads/intro-head-4.7528d23d.png') !important;
+}
+
+/* Alternativa: forzar src directamente para intro-head-4 */
+img[alt=""][width="2160"][height="2160"] {
+    content: url('../media/intro-heads/intro-head-4.7528d23d.png') !important;
+}
+
+/* 2Fbanner - Reemplazar banner horizontal black con 879-studios.jpg */
+img[src*="banner-horizontal-black.2374e91e.png"] {
+    content: url('../../../images/879-studios.jpg') !important;
+}
+
+/* 2Fbanner - Alternativa: forzar src directamente para banner horizontal */
+img[alt=""][width="3890"][height="100"] {
+    content: url('../../../images/879-studios.jpg') !important;
+}
+
+/* 2Fbanner - Reemplazar banner vertical black con 879-studios.jpg */
+img[src*="banner-vertical-black.3c6f949a.png"] {
+    content: url('../../../images/879-studios.jpg') !important;
+}
+
+/* 2Fbanner - Alternativa: forzar src directamente para banner vertical */
+img[alt=""][width="100"][height="3890"] {
+    content: url('../../../images/879-studios.jpg') !important;
+}
+
+/* Reemplazar GIF xxx con versión local */
+img[src*="xxx.7cb82b64.gif"] {
+    content: url('../media/Imagenes/xxx.7cb82b64.gif') !important;
+}
+
+/* Alternativa: forzar src directamente para GIF xxx */
+img[alt=""][width="1600"][height="260"] {
+    content: url('../media/Imagenes/xxx.7cb82b64.gif') !important;
+}
+
+/* Reemplazar GIF refresh con versión local */
+img[src*="refresh.5d007336.gif"] {
+    content: url('../media/Imagenes/refresh.5d007336.gif') !important;
+}
+
+/* Alternativa: forzar src directamente para GIF refresh */
+img[alt=""][width="800"][height="800"] {
+    content: url('../media/Imagenes/refresh.5d007336.gif') !important;
+}
+
+/* Reemplazar star-green-1 con versión local */
+img[src*="star-green-1.599d172b.gif"] {
+    content: url('../media/Imagenes/star-green-1.599d172b.gif') !important;
+}
+
+/* Reemplazar star-green-2 con versión local */
+img[src*="star-green-2.e1e09253.gif"] {
+    content: url('../media/Imagenes/star-green-2.e1e09253.gif') !important;
+}
+
+/* Reemplazar star-purple-1 con versión local */
+img[src*="star-purple-1.409a14fb.gif"] {
+    content: url('../media/Imagenes/star-purple-1.409a14fb.gif') !important;
+}
+
+/* Reemplazar star-purple-2 con versión local */
+img[src*="star-purple-2.527503ad.gif"] {
+    content: url('../media/Imagenes/star-purple-2.527503ad.gif') !important;
+}
+
+/* Reemplazar star-white-1 con versión local */
+img[src*="star-white-1.170f180f.gif"] {
+    content: url('../media/Imagenes/star-white-1.170f180f.gif') !important;
+}
+
+/* Reemplazar star-white-2 con versión local */
+img[src*="star-white-2.32dc09f8.gif"] {
+    content: url('../media/Imagenes/star-white-2.32dc09f8.gif') !important;
+}
+
+/* Reemplazar globe con versión local */
+img[src*="globe.521cbed5.gif"] {
+    content: url('../media/Imagenes/globe.521cbed5.gif') !important;
+}
+
+/* 2Fbanner - Reemplazar zkp-banner con 879-studios.jpg */
+img[src*="zkp-banner.26fde348.png"] {
+    content: url('../../../images/879-studios.jpg') !important;
+}
+
+/* 2Fbanner - Alternativa: forzar src directamente para zkp-banner */
+img[alt=""][width="1363"][height="62"] {
+    content: url('../../../images/879-studios.jpg') !important;
+}
+
+/* Reemplazar knowledge-proof con versión local */
+img[src*="knowledge-proof.e648300e.png"] {
+    content: url('../media/Imagenes/knowledge-proof.e648300e.png') !important;
+}
+
+/* Alternativa: forzar src directamente para knowledge-proof */
+img[alt=""][width="3036"][height="668"] {
+    content: url('../media/Imagenes/knowledge-proof.e648300e.png') !important;
+}
+
+/* Reemplazar zero.png (versión grande para desktop) */
+img[src*="zero.0bf5bf11.png"][width="3308"] {
+    content: url('../media/Imagenes/zero.0bf5bf11.png') !important;
+}
+
+/* Alternativa: forzar src directamente para zero.png (desktop) */
+img[alt=""][width="3308"][height="680"] {
+    content: url('../media/Imagenes/zero.0bf5bf11.png') !important;
+}
+
+/* Deshabilitar clics en botones HEAR FROM EXPERT y SUBMIT YOUR IDEA */
+div.flex.flex-col.gap-\[2\.5vw\] a,
+div.flex.flex-col.gap-\[2\.5vw\] button {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+/* Eliminar hover effects de los botones deshabilitados */
+div.flex.flex-col.gap-\[2\.5vw\] a:hover,
+div.flex.flex-col.gap-\[2\.5vw\] button:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+/* Opcional: agregar estilo visual para indicar que están deshabilitados */
+div.flex.flex-col.gap-\[2\.5vw\] a,
+div.flex.flex-col.gap-\[2\.5vw\] button {
+    opacity: 0.7 !important;
+}
